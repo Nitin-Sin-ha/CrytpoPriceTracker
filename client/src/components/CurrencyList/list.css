@@ -1,0 +1,26 @@
+.items1{
+    /* text-align: left; */
+    @media (max-width:860px) {
+        display : none;
+    }
+}
+    .table{
+
+        width: 100vw;
+        height: 20px;
+
+    }
+    th{
+        font-size: x-large;
+        border-bottom: 1px solid black;
+    }
+    
+    td {
+        text-align: center;
+        font-size: large;
+    }
+    tr{
+        margin: 5px;
+        padding: 5px;
+        border-bottom: 1px solid green;
+    }

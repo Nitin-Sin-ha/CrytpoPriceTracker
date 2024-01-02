@@ -1,0 +1,12 @@
+.footer{
+    color: black; 
+    font-size: x-large;
+}
+
+.Footer{
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

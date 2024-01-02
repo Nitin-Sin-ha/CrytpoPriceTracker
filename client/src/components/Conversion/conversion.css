@@ -1,0 +1,41 @@
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+
+}
+.feild{
+    display: flex;
+    align-items: center;justify-content: center;
+    margin: 40px;
+    @media (max-width: 860px) {
+        flex-direction: column;
+        margin : 20px;
+    }
+}
+
+.amountCalculator{
+    margin-top: 10px;
+    font-size: x-large;
+}
+.amount{
+    margin-right: 20px;
+}
+.drop1,.drop2,.drop3{
+    padding: 10px;
+    font-size: large;
+    @media (max-width : 860px) {
+        padding: 5px;
+        margin: 5px;
+    }
+}
+.crypto{
+    margin-right: 20px;
+}
+.totalamt{
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+
