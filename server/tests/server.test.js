@@ -1,5 +1,5 @@
 const request = require('supertest');
-const app = require('../index'); // adjust this path according to your project structure
+const app = require('../index');
 
 describe('Test the /allCoins endpoint', () => {
    test('It should respond with a status code of 200', async () => {
